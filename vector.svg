@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg baseProfile="full" version="1.1" viewBox="0 0 450 425"
+width="450" height="425"
+xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>
+	Venn diagram of coder skills
+</title>
+	<defs>
+		<style>
+			circle {
+				/* There is no doubt a better way of handling the mixed colour
+				   of Venn diagrams, but this will suffice for a Reddit post.  */
+				fill-opacity: 0.7;
+				stroke: black;
+				stroke-width: 4px;
+			}
+			text {
+				fill: white;
+				font-size: 15px;
+			}
+			tspan {
+				font-variant: small-caps;
+			}
+		</style>
+	</defs>
+	<rect width="100%" height="100%" stroke="black" stroke-width="5" fill="white"/>
+	<circle cx="150" cy="150" r="100" fill="red"/>
+	<text x="130" y="130" text-anchor="middle">People with</text>
+	<text x="130" y="150" text-anchor="middle">social skills</text>
+
+	<circle cx="300" cy="150" r="100" fill="blue"/>
+	<text x="320" y="130" text-anchor="middle">People with</text>
+	<text x="320" y="150" text-anchor="middle">technical skills</text>
+
+	<circle cx="225" cy="275" r="100" fill="green"/>
+	<text x="225" y="280" text-anchor="middle">People who know to</text>
+	<text x="225" y="300" text-anchor="middle">use <tspan>svg</tspan> for diagrams</text>
+
+	<!-- Make sure rims are black. -->
+	<circle cx="150" cy="150" r="100" fill="none"/>
+	<circle cx="300" cy="150" r="100" fill="none"/>	
+</svg>
